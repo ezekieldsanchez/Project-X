@@ -35,6 +35,24 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Dodge"",
+                    ""type"": ""Button"",
+                    ""id"": ""a22cf52f-8813-4dfc-9e14-04bf32ebb561"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""16984489-ba21-4b53-88cb-1021fc78db1d"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -57,6 +75,149 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0db1d964-6759-458e-b66a-3d8e6bbfb129"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""MouseAndKeyboard"",
+                    ""action"": ""Dodge"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""59c88b2d-3eb4-44a3-ba84-1a3f06e2ee15"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Dodge"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""WASD"",
+                    ""id"": ""3fc7186a-8aa8-48ed-ac96-304d8eb4e29f"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Arrow Keys"",
+                    ""id"": ""2fc71c82-0027-44b5-b2cb-b721de0be34e"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""f3b34914-ba16-445e-8268-ffe3ab401cbe"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""8376ebc9-12c2-4a94-8ef9-49426fdf4f8a"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""55a1bdea-30a1-4e99-bcda-a1941d5d89f4"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""8434a766-2c19-441a-92a9-de2cdc359f8c"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""MouseAndKeyboard"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""aee766dc-0df2-4139-a003-e9d2efb34d27"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""29bfdaef-a45d-458e-8c95-769399a574c0"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""a02ecd21-4b68-4548-a2e5-f372003b1b07"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""836c6138-d342-424c-894d-3dbf1b1f2c0a"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""MouseAndKeyboard"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8b8f1002-5bc2-47ba-a762-d2e35ace709b"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -96,6 +257,8 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Dodge = m_Player.FindAction("Dodge", throwIfNotFound: true);
+        m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -158,11 +321,15 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Dodge;
+    private readonly InputAction m_Player_Move;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
         public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputAction @Dodge => m_Wrapper.m_Player_Dodge;
+        public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -175,6 +342,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
+            @Dodge.started += instance.OnDodge;
+            @Dodge.performed += instance.OnDodge;
+            @Dodge.canceled += instance.OnDodge;
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -182,6 +355,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
+            @Dodge.started -= instance.OnDodge;
+            @Dodge.performed -= instance.OnDodge;
+            @Dodge.canceled -= instance.OnDodge;
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -220,5 +399,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     public interface IPlayerActions
     {
         void OnJump(InputAction.CallbackContext context);
+        void OnDodge(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
 }
