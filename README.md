@@ -1,5 +1,5 @@
 # Project-X
-# Unity Version 2022.3.7f1
+# Initial Unity Version used: 2022.3.7f1
 
 Start of development: August 20, 2023
 
