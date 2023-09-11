@@ -12,7 +12,7 @@ Project X is an exploration adventure game where you overcome the tribulations y
 Nobody is free of fear or worry. Others face it head-on, while many are lost and fall into despair.
 No matter what choice one makes, it will inevitably affect everything.
 
-Features:
+Features:<br>
 Story-rich. Besides the main storyline, this includes the story of the inhabitants, some if not all.
 The player is given the freedom of collecting and equipping different weapons.
 Some weapons can be swapped between attacks that will produce combinations of combos to suit the player's taste.
