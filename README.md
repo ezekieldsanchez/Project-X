@@ -1,7 +1,7 @@
 # Project-X
 # Initial Unity URP 2022.3.7f1
 
-<h2>Start of development</h2>: <br/> August 20, 2023
+<h2>Start of development</h2>: August 20, 2023
 
 <b>Genre</b>:<br/>
 Single-player, Top-down, role-playing, action game inspired by popular titles.
