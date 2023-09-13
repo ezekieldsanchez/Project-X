@@ -1,0 +1,51 @@
+PROJECT X Devlog
+Entry #001
+
+Date: September 14, 2023
+
+Assets
+- Imported Assets to be used for development.
+  This assets will change depending on many factors.
+  (See Assets folder for the list)
+
+Sandbox
+- Used the official Unity Third Person Starter Asset for sandbox.
+- Changed the sandbox layout. Removed High buildings.
+- Added invisible wall colliders for the level.
+
+SYSTEM
+- Created seperate Cinemachine camera for top down view.
+- Experimenting with ortho and perspective view. Using orthographic view for now.
+- All "UNITS" will use statemachine pattern(FSM).
+  units refer to player, npc, enemies, and objects that has logic in it.
+
+PLAYER
+- Changed the visual of player to use shinabro's model. Both for player visual and weapon.
+- Created new Input Action for player.
+- Created Player statemachine, so far the states of the player are:
+  Idle, Running, Attacking, Dashing, Falling, Taken Hit
+- Attack state has a maximum of three-hit combo for now.
+- Player direction is controlled by keyboard input(WASD).
+- Mouse input is not yet taken into consideration.
+- Falling state is made because the player does not use nav mesh agent,
+  and can fall into ledges.
+- Controller support is not yet taken into consideration that's why there's no walking state.
+- Added animations for each state available.
+- Added Weapon Collision check to damage others (enemies only for now).
+
+ENEMY
+- Created an enemy which also use the player model.
+- Added Navmesh surface for enemies.
+- Added waypoints for enemies.
+- Patrolling of enemies is optional.
+- Generally, enemies are divided into melee, long-range, mid-range.
+- Created Enemy statemachine, states are:
+  Idle, Locomotion, Attacking, Falling, Taken Hit
+- Compared to player, enemy can walk or run depending on it's state.
+  If the enemy is patrolling, it will walk, if it's chasing the player, it will run.
+- Attack combo will vary depending on the level/Stage and/or player progress.
+
+NOTES
+I'm guessing the sandbox environment will not change for a while since i'm focusing on the player, enemy, and npc logics. When the base mechanics are in place for these three, I will then start tackling the environment to an acceptable level, so that I could start also thinking on what type of design I will use. Like if it will be low-polys, mid or high resolutions I guess?
+
+Primary attack and skill combinations will be tackled after the base mechics of enemy and npcs. But skill tree will not yet be implemented, skills will just be hardcoded for now for testing.
