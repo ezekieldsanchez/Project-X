@@ -7,7 +7,7 @@
 Single-player, Top-down, role-playing, action game inspired by popular titles.
 
 <b>Idea</b>:<br/>
-Project X is an exploration adventure game where you overcome the tribulations you are too afraid to face.
+Project X is an exploration adventure game where you overcome the tribulations you fear.
 Nobody is free of fear or worry. Others face it head-on, while many are lost and fall into despair.
 No matter what choice one makes, it will inevitably affect everything.
 
@@ -19,7 +19,7 @@ Skills, while few are also included in combos, making use of ailments/effects to
 In A Dynamic game world that reacts and responds to player actions and choices, the game helps the player see and know these changes.
 These changes allow the progress of the world, AI, and monsters alongside the player storyline. 
 
-Platforms:
+<b>Platforms</b>:<br/>
 Windows and Mac Initially.
 
 
