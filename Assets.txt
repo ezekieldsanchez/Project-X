@@ -1,0 +1,29 @@
+Last Update: September 13, 2023
+
+Unity Assets:
+- Cinemachine
+- New Input System
+- Third Person Starter Assets
+- TextMesh Pro
+- Visual Studio
+- AI Navigation
+- Burst
+- Mathematics
+- Core RP Library
+- Custom NUnit
+- Searcher
+- Shader Graph
+- Test Framework
+- Timeline
+_ Unity UI
+- Universal RP
+- Visual Studio Editor
+
+Third Party Assets:
+- Shinabro
+- Nodachi
+- Oriental Sword
+- Polygon Apocalypse
+- Polygon Dungeon
+- Polygon Nature
+- Polygon Particle FX
