@@ -1,0 +1,52 @@
+PROJECT X Devlog
+Entry #002
+
+Date: September 14, 2023
+
+Assets
+- ...
+
+Sandbox
+- ...
+
+SYSTEM
+Additions:
+- Simple Explanation window for:
+    - control bindings
+- Experimenting with attack colliders. Finding the less buggy one!
+
+PLAYER
+- ...
+
+ENEMY
+Changes:
+ - State name locomotion to patrolling.
+ - Made a seperate script for the root motion logics on the enemy for now.
+ - Refactored all timers from different states to one(1) state timer.
+   Since I think most of the needed states have been made. It's time to start refactoring.
+
+Additions:
+- Current and previous state field for debugging and additional conditional check.
+- Visual aid for:
+    - Player max follow radius
+    - Player detection radius
+    - Minimum attack radius
+- States:
+    - Chase
+    - Attack Prep
+    - Enemy Lost Sight
+    - Post Attack
+    - Patrol
+    - Player Detected
+    - Arm Weapon
+    - Unarm Weapon
+- Weapon handler and collision
+- Editor gizmos to show player detection radius and max player follow
+- Player detection logic
+- Separate object holder for Player detection and max follow radius
+- Enemy simple logic chart
+
+NOTES
+Enemy logic did a really big toll on my mind! I think the only good thing I had going was knowing how the overall base enemy logic be.
+
+Besides trying to clean-up few bugs for the enemy logic, I'm just watching Game Dev Conferences as they hold a lot of important information for us to use.
