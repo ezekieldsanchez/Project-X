@@ -1,7 +1,7 @@
 PROJECT X Devlog
 Entry #002
 
-Date: September 14, 2023
+Date: September 24, 2023
 
 Assets
 - ...
